@@ -10,8 +10,8 @@ SAUVETAROCHE est une application mobile interactive compatible <strong>Android</
 
 <h2> Technologies utilisées</h2>
 <ul>
+  <li>JavaScript/TypeScript pour le langage de programmation</li>
   <li>React Native (Front-end)</li>
-  <li>Node.js (Back-end)</li>
   <li>Expo CLI pour le développement mobile et test</li>
   <li>Android Studio (émulateur)</li>
   <li>VSCode comme IDE principal</li>
@@ -22,27 +22,46 @@ SAUVETAROCHE est une application mobile interactive compatible <strong>Android</
 <img src="URL_DE_TON_IMAGE_ARBORESCENCE" alt="Arborescence du projet" width="600">
 
 <h2> Installation et lancement</h2>
-<ol>
-  <li>Assurez-vous d’avoir <strong>Node.js</strong> installé sur votre machine.</li>
-  <li>Initialisez votre projet avec <code>npm init</code> dans le dossier racine du votre projet. Par exemple, si le dossier racine porte le nom de sauvetaroche, vous entrer dans le dossier et vous entrez la commande.</li>
-  <li>Installez Expo CLI globalement ou localement :
+<p>Pour initialiser le projet, suivez les étapes suivantes :</p>
+<ul>
+  <li>Entrez dans le dossier racine : SauveTaRocheJS</li>
+  <li>Dans le dossier racine, entrez la commande suivante : 
+    <code>
+      expo init MonApp
+      cd MonApp
+      npm start
+    </code>
+    <p>Ce code initialisera un projet Expo dans le nom de l'App avec les dépendances associées.</p>
+  </li>
+  <li>Pour lancer l'App initialisée, il faut lancer dans le dossier MonApp, entrer la commande suivante :
+    <code>
+      npx expo start
+    </code>
+    <p>Un QR code s'affichera dans le terminal de VSCode. Pour lancer l'application sur son téléphone, il faut juste le scanner dans l'application Expo Go sur votre téléphone.</p>
+    <p>Pour lancer l'application sur l'émulateur de la machine, appuyer sur la lettre <code>a</code> (l'indication s'affiche dans le terminal).</p>
+  </li>
+</ul>
+    
+  
+  <li>Initialisez votre projet avec <code>npm init</code> dans le dossier racine du votre projet. Par exemple, si le dossier racine porte le nom de SauveTaRocheJS, vous entrer dans le dossier et vous entrez la commande.</li>
+  <li>Installez dans le dossier du projet, c'est à dire le dossier <em>App</em>, Expo CLI globalement ou localement :
     <pre><code>npm install -g expo-cli</code></pre>
     ou
     <pre><code>npm install expo-cli</code></pre>
   </li>
-  <li>Dans le dossier du projet, démarrez Expo :
+  <li>Dans le dossier du projet, c'est à dire dans le dossier App, démarrez Expo :
     <pre><code>npx expo start</code></pre>
   </li>
   <li>Expo détectera automatiquement l’émulateur Android installé via Android Studio et lancera l’application.</li>
-  <li>Dans le cas où vous n'avez pas d'émulateur sur Android Studion, vous pouvez télécharger l'application <strong>Expo Go</strong> disponile sur Google Play Store ou App Store.</li>
+  <li>Dans le cas où vous n'avez pas d'émulateur sur Android Studio, vous pouvez télécharger l'application <strong>Expo Go</strong> disponile sur Google Play Store ou App Store.</li>
 </ol>
 
 <h2> Fonctionnalités principales</h2>
 <ul>
   <li><strong>Page principale</strong> avec 3 onglets horizontaux : <em>Défis</em>, <em>Jeu</em>, <em>Données</em></li>
-  <li><strong>Défis</strong> : une question avec 4 choix de réponses</li>
+  <li><strong>Défis</strong> : une question avec 4 choix de réponses et une correction après les réponses.</li>
   <li><strong>Données</strong> : 4 onglets temporels (<em>Actuel</em>, <em>+50 ans</em>, <em>+100 ans</em>, <em>+200 ans</em>) affichant des cartes prévisionnelles</li>
-  <li><strong>Jeu</strong> : à définir selon les prochaines versions</li>
+  <li><strong>Jeu</strong> : Subdivisé en deux niveaux avec complexité différentes. Pour chaque niveau, l'utilisateur joue le role d'un personnage amené à prendre des décisions afin de gérer au mieux sa circonscripton. Chaque décsions a un impact visible sur sa circonscription et la satisfaction de la population à travers un carte de la zone et une jauge de satisfaction.</li>
 </ul>
 
 <h2> Aperçus de l'application</h2>
@@ -57,7 +76,7 @@ SAUVETAROCHE est une application mobile interactive compatible <strong>Android</
 
 <h2> Remerciements</h2>
 <p>
-Nous remercions tous les membres de l’équipe, les encadrants, ainsi que les participants aux enquêtes de terrain pour leur précieuse contribution.
+Nous remercions tous les membres de l’équipe, les encadrants, ainsi que les participants aux enquêtes de terrain pour leur précieuse contribution. Ce projet a été pour nous un moyen de monter en compétences et de découvrir tous les aspects de la gestion du projet.
 </p>
 
 <h2> Contact & Documentation</h2>
@@ -71,7 +90,7 @@ Pour consulter les <strong>User Stories</strong>, <strong>Personas</strong> et l
 <p align="center"><em>Développé avec ❤️ par l'équipe CAILLOUX composée de : </em>
   <ul>
     <li>1. Pako Justin</li>
-    <li>2. Jamgotchan Clémence</li>
+    <li>2. Jamgotchian Clémence</li>
     <li>3. Berry Coline</li>
     <li>4. Kouassi Emmanuel</li>
     <li>4. Guillot Flavien</li>
