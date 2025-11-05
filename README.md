@@ -5,14 +5,14 @@
 
 <h2> Présentation du projet</h2>
 <p>
-SAUVETAROCHE est une application mobile interactive compatible <strong>Android</strong> et <strong>iOS</strong>, développée dans <strong>VSCode</strong> avec <strong>React Native</strong> pour le front-end et <strong>Node.js</strong> pour le back-end. Elle sensibilise les utilisateurs à l’érosion côtière à travers des jeux, des défis et des cartes prévisionnelles.
+SAUVETAROCHE est une application mobile interactive compatible <strong>Android</strong> et <strong>iOS</strong>, développée dans <strong>VSCode</strong> avec <strong>React Native</strong> pour le front-end et <strong>Node.js</strong> pour le back-end. Elle consiste au travers d'un jeu interactif décisionnel, de défis quotidiens et de cartes prévisionnelles, à sensibiliser les utilisateurs sur le sujet de l’érosion côtière ainsi que son impact.
 </p>
 
 <h2> Technologies utilisées</h2>
 <ul>
   <li>React Native (Front-end)</li>
   <li>Node.js (Back-end)</li>
-  <li>Expo CLI pour le développement mobile</li>
+  <li>Expo CLI pour le développement mobile et test</li>
   <li>Android Studio (émulateur)</li>
   <li>VSCode comme IDE principal</li>
 </ul>
@@ -24,7 +24,7 @@ SAUVETAROCHE est une application mobile interactive compatible <strong>Android</
 <h2> Installation et lancement</h2>
 <ol>
   <li>Assurez-vous d’avoir <strong>Node.js</strong> installé sur votre machine.</li>
-  <li>Initialisez votre projet avec <code>npm init</code> dans le dossier racine.</li>
+  <li>Initialisez votre projet avec <code>npm init</code> dans le dossier racine du votre projet. Par exemple, si le dossier racine porte le nom de sauvetaroche, vous entrer dans le dossier et vous entrez la commande.</li>
   <li>Installez Expo CLI globalement ou localement :
     <pre><code>npm install -g expo-cli</code></pre>
     ou
@@ -34,6 +34,7 @@ SAUVETAROCHE est une application mobile interactive compatible <strong>Android</
     <pre><code>npx expo start</code></pre>
   </li>
   <li>Expo détectera automatiquement l’émulateur Android installé via Android Studio et lancera l’application.</li>
+  <li>Dans le cas où vous n'avez pas d'émulateur sur Android Studion, vous pouvez télécharger l'application <strong>Expo Go</strong> disponile sur Google Play Store ou App Store.</li>
 </ol>
 
 <h2> Fonctionnalités principales</h2>
@@ -63,8 +64,16 @@ Nous remercions tous les membres de l’équipe, les encadrants, ainsi que les p
 <p>
 Pour consulter les <strong>User Stories</strong>, <strong>Personas</strong> et les <strong>études de terrain</strong>, accédez à notre Drive :
 </p>
-<p><a href="LIEN_VERS_DRIVE" target="_blank"> Accéder à la documentation du projet</a></p>
+<p><a href="https://drive.google.com/drive/u/2/folders/1-6Zyo5Eqjw6-DlHBN8UDSrhlZlRopb-F" target="_blank"> Accéder à la documentation du projet (Enquête de terrain, blog, état de l'art, cartographie des acteurs.)</a></p>
 
 <hr>
 
-<p align="center"><em>Développé avec ❤️ par l'équipe SAUVETAROCHE</em></p>
+<p align="center"><em>Développé avec ❤️ par l'équipe CAILLOUX composée de : </em>
+  <ul>
+    <li>1. Pako Justin</li>
+    <li>2. Jamgotchan Clémence</li>
+    <li>3. Berry Coline</li>
+    <li>4. Kouassi Emmanuel</li>
+    <li>4. Guillot Flavien</li>
+  </ul>
+</p>
