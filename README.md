@@ -26,35 +26,18 @@ SAUVETAROCHE est une application mobile interactive compatible <strong>Android</
 <ul>
   <li>Entrez dans le dossier racine : SauveTaRocheJS</li>
   <li>Dans le dossier racine, entrez la commande suivante : 
-    <code>
-      expo init MonApp
+    <code>expo init MonApp
       cd MonApp
-      npm start
-    </code>
+      npm start</code>
     <p>Ce code initialisera un projet Expo dans le nom de l'App avec les dépendances associées.</p>
   </li>
   <li>Pour lancer l'App initialisée, il faut lancer dans le dossier MonApp, entrer la commande suivante :
-    <code>
-      npx expo start
-    </code>
-    <p>Un QR code s'affichera dans le terminal de VSCode. Pour lancer l'application sur son téléphone, il faut juste le scanner dans l'application Expo Go sur votre téléphone.</p>
-    <p>Pour lancer l'application sur l'émulateur de la machine, appuyer sur la lettre <code>a</code> (l'indication s'affiche dans le terminal).</p>
+    <code>npx expo start</code>
+    <p>Un QR code s'affichera dans le terminal de VSCode. Pour lancer l'application sur la machine, il faut juste appuyer sur <code>a</code> (l'instruction apparait dans le terminal).</p>
+    <p>Pour lancer l'application sur votre téléphone, il faut scanner le QR code via l'application Expo Go disponible sur Google PlayStore ou App Store.</p>
   </li>
 </ul>
     
-  
-  <li>Initialisez votre projet avec <code>npm init</code> dans le dossier racine du votre projet. Par exemple, si le dossier racine porte le nom de SauveTaRocheJS, vous entrer dans le dossier et vous entrez la commande.</li>
-  <li>Installez dans le dossier du projet, c'est à dire le dossier <em>App</em>, Expo CLI globalement ou localement :
-    <pre><code>npm install -g expo-cli</code></pre>
-    ou
-    <pre><code>npm install expo-cli</code></pre>
-  </li>
-  <li>Dans le dossier du projet, c'est à dire dans le dossier App, démarrez Expo :
-    <pre><code>npx expo start</code></pre>
-  </li>
-  <li>Expo détectera automatiquement l’émulateur Android installé via Android Studio et lancera l’application.</li>
-  <li>Dans le cas où vous n'avez pas d'émulateur sur Android Studio, vous pouvez télécharger l'application <strong>Expo Go</strong> disponile sur Google Play Store ou App Store.</li>
-</ol>
 
 <h2> Fonctionnalités principales</h2>
 <ul>
